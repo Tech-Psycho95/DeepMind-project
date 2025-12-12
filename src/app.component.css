@@ -1,0 +1,38 @@
+
+/* You can add global styles to this file, and also import other style files */
+/* Using prose classes for tailwind typography plugin would require a config, so a few styles are added here for the output */
+.prose {
+    line-height: 1.7;
+}
+
+.prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
+    font-weight: 600;
+    margin-top: 1.25em;
+    margin-bottom: 0.5em;
+}
+
+.prose h1 { font-size: 2.25rem; }
+.prose h2 { font-size: 1.875rem; }
+.prose h3 { font-size: 1.5rem; }
+
+.prose ul, .prose ol {
+    padding-left: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.prose li {
+    margin-top: 0.5em;
+}
+
+.prose ul li {
+    list-style-type: disc;
+}
+
+.prose ol li {
+    list-style-type: decimal;
+}
+
+.prose strong, .prose b {
+    font-weight: 700;
+}
